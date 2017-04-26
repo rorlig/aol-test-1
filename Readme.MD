@@ -7,6 +7,8 @@ how it's setup,how easily it can be scaled to 100 more servers. As this task is 
 + AWS Lambda
   + You basically create one line of code and deploy the package to AWS.
   + AWS Lambda's managed container system takes care of the entire scaling of servers, containers and container reuse.
+  The code is available here. 
+  https://github.com/rorlig/aol-test.git
 
 + Docker Based (Approach Used Here)
   + Nginx - load balancer to redirect traffic between nodes
