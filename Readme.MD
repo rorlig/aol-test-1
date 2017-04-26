@@ -28,4 +28,7 @@ how it's setup,how easily it can be scaled to 100 more servers. As this task is 
     + Create and maintain web amis.
     + Manage the deployment via ansible or other third party tools.
     + Use ELB and Autoscale groups to manage the scaling of web servers.
-  
+
+
+  SSH Port Forwarding
+  + ssh 9020:localhost:80 ec2-user@<<IP_PORT>>
