@@ -21,6 +21,12 @@ how it's setup,how easily it can be scaled to 100 more servers. As this task is 
     + Use a container management solution such as Kubernetes or Amazon ECS or docker swarm
     + Kubernetes e.g. creates kubs & services and exposes them its own loadbalancer
       + Obvious downside is that you are dependent on a tech stack especially with ECS.
+  + Note :
+    to run on the dev machine 
+    ``` shell
+    cd aol-test-1
+    docker-compose up
+    ```
 
 
   + Vagrant Based Solution
